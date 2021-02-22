@@ -24,6 +24,8 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contacts') }}">Contacts</a>
+                    </li> <li class="nav-item">
+                        <a class="nav-link" href="{{ route('contributor.index') }}">Contributors</a>
                     </li>
                 </ul>
             </nav>
