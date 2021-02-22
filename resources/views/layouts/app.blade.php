@@ -30,6 +30,12 @@
                 </li> <li class="nav-item">
                     <a class="nav-link" href="{{ route('article.index') }}">Articles</a>
                 </li>
+            </li> <li class="nav-item">
+                <a class="nav-link" href="{{ route('sponsor.index') }}">Sponsor</a>
+            </li>
+        </li> <li class="nav-item">
+            <a class="nav-link" href="{{ route('project.index') }}">Projects</a>
+        </li>
                 </ul>
             </nav>
         </header>

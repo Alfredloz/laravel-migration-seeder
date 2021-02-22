@@ -19,6 +19,9 @@ Route::get('contacts', 'PageController@contacts')->name('contacts');
 
 Route::resource('article', 'ArticleController');
 Route::resource('contributor', 'ContributorController');
+Route::resource('sponsor', 'SponsorController');
+Route::resource('project', 'ProjectController');
+
 
 
 

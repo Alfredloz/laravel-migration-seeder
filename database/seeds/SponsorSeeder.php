@@ -36,7 +36,7 @@ class SponsorSeeder extends Seeder
 
         foreach ($sponsors as $sponsor) {
             $newSponsor = new Sponsor();
-            $newSponsor->name = $sponsor['name'];
+            $newSponsor->company = $sponsor['company'];
             $newSponsor->ceo = $sponsor['ceo'];
             $newSponsor->email = $sponsor['email'];
             $newSponsor->save();
