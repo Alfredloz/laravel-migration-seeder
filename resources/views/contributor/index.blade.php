@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Contributors
+@endsection
 @section('content')
     <h2>Contributor</h2>
     @foreach ($contributors as $contributor)
