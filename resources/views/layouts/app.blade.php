@@ -24,7 +24,7 @@
                     </li>
                     <li class="nav-item {{ Route::currentRouteName() === 'contacts'? 'active': '' }}">
                         <a class="nav-link" href="{{ route('contacts') }}">Contacts</a>
-                    </li> <li class="nav-item">
+                    </li> <li class="nav-item {{ Route::currentRouteName() === 'contributor.index'? 'active': '' }}">
                         <a class="nav-link" href="{{ route('contributor.index') }}">Contributors</a>
                     </li>
                 </li> <li class="nav-item {{ Route::currentRouteName() === 'article.index'? 'active': '' }}">
